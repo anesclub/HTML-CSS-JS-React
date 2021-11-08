@@ -1,8 +1,41 @@
 styles.css
 h1 {
     color:crimson;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
     color:darkgoldenrod;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.titles{
+    color:darkblue;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 32px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+img{
+    padding: 10px;
+}
+
+.Lorem{
+    width: 700px;
+    text-justify:distribute-all-lines;
+}
+
+#quote{
+    margin: 10px;
+    border: 2px; 
+    padding: 20px;
+    background-color: darksalmon;
+    font-style: italic;
+    color: #000;
+    font-size: larger;
+}
+
+html{
+    background-color:#eee;
 }
