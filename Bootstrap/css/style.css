@@ -1,0 +1,28 @@
+.container{
+  padding-top: 20px;  
+  padding-bottom: 20px;
+  background-color: blueviolet;
+  color: azure;
+}
+
+.container-sm{
+    padding-top: 20px;  
+    padding-bottom: 20px;
+    background-color:cadetblue;
+}
+
+.container-md{
+    padding-top: 20px;  
+    padding-bottom: 20px;
+}
+
+.container-lg{
+    padding-top: 20px;  
+    padding-bottom: 20px;
+    background-color:cadetblue;
+}
+
+.container-xl{
+    padding-top: 20px;  
+    padding-bottom: 20px;
+}
