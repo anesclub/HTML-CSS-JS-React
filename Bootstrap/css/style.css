@@ -26,3 +26,57 @@
     padding-top: 20px;  
     padding-bottom: 20px;
 }
+
+.container-fluid{
+  padding-top: 20px;  
+  padding-bottom: 20px;
+  background-color:darkblue;
+  color: azure;
+}
+
+.flex-conainer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    background-color: floralwhite;
+}
+
+.flex-conainer > div {
+    background-color: gold;
+    margin: 10px;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 75px;
+    width: 200px;
+}
+
+.wrap > div {
+    background-color:cornflowerblue;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 75px;
+    width: 200px; 
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-flow{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: darkgreen;
+}
+
+.flex-flow > div{
+    background-color:magenta;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 75px;
+    width: 200px; 
+}
