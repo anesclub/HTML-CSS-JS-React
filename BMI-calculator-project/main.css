@@ -1,0 +1,45 @@
+body {
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, sans-serif;
+    background-color:moccasin;
+}
+
+#container {
+    width: 375px;
+    height: 525px;
+    margin-left: 150px;
+    margin-top: 65px;
+    background-color: burlywood;
+    padding: 30px;
+}
+
+#cm , #kg, #submit {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+#submit {
+    background-color:darkslateblue;
+    color: #fff;
+    border-radius: 3px;
+    border-style: none;
+    margin-left: 90px;
+    font-size: 20px;
+
+}
+
+#weightguide {
+    margin-left: 75px;
+    margin-top: 50px;    
+}
+
+#result {
+    font-size: 35px;
+    margin-left: 90px;
+    color: midnightblue;
+}
+
+h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+}
