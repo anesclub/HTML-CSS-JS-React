@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+    padding: 60px;
+    margin: auto;
+
+}
+
+h1, h2 {
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+input {
+    font-size: 20px;
+    width: 750px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#btn {
+    
+    color: #fff;
+    height: auto;
+    border-radius: 5px;
+    /* border-style:solid; */
+    background-color: brown;
+    margin-top: 45px;
+
+}
+
+#output {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+    padding: 5px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 400ps;
+    background: lightgray;
+
+}
