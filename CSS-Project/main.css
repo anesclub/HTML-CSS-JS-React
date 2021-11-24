@@ -1,0 +1,39 @@
+h1 {
+    font-family: "Arial";
+    color: brown;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-family: Tahoma;
+    font-style: italic;
+    font-size: 1.7em;
+    line-height: 130%;
+
+    border: 1px solid #4587ff;
+    width: 800px;    
+    margin: 10px;
+    padding: 10px;
+}
+
+.boldy {
+    font-weight: bold;
+    clear: both;
+    border: none;
+    
+}
+
+body {
+    background-color: bisque;
+    height: 1000px;
+}
+
+.boxes > p {
+    width: 80px;
+    float: left;
+    background-color: chartreuse ;
+    box-shadow: 7px 7px 5px grey;
+    border-radius: 0px 10px 10px;
+    display: block;
+}
