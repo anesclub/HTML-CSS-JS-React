@@ -1,0 +1,60 @@
+body{
+    background-color:aliceblue;
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    /* background-color: aliceblue; */
+    padding-top: 60px;
+}
+
+.navbar{
+    border-bottom:cornflowerblue solid 3px;
+}
+
+.navbar .navbar-brand{
+    color: cornflowerblue;
+    font-size: 1.3em;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: cornflowerblue !important;
+    cursor: pointer;
+}
+
+#header{
+    padding: 3rem 0;
+    background: url('../images/bg.webp') no-repeat;
+    background-size: cover;
+    height: auto;
+
+}
+
+.btn-outline-secondary:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+#features i{
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+#features i:hover{
+    color: rgb(63, 63, 63);
+    cursor: pointer;
+
+}
+
+#features p{
+    font-size:smaller;
+}
