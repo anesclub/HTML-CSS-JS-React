@@ -20,10 +20,12 @@ h1{
 .navbar .navbar-brand{
     color: cornflowerblue;
     font-size: 1.3em;
+    margin-left: 20px;
 }
 
 .nav-link{
     text-transform: uppercase;
+    margin-left: 20px;
 }
 
 .nav-link:hover{
