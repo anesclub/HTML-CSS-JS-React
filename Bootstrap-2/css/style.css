@@ -10,7 +10,7 @@ h1{
 
 .container {
     /* background-color: aliceblue; */
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .navbar{
@@ -99,4 +99,57 @@ h1{
 
 .second{
     /* margin-left: 120px; */
+}
+
+@media screen and (max-width: 1200px){
+    #header{
+        background-size: 1200px 100vh;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #header{
+        background-size: 992px 100vh;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #header{
+        background-size: 768px 100vh;
+    }
+
+    .container{
+        padding-top: 10px !important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    #header{
+        background-size: 576px 100vh;
+    }
+
+    .container{
+        padding-top: 10px !important;
+    }
+
+    .fas, .fab {
+        font-size: 3em !important;
+    }
+
+    #features i{
+        color: cornflowerblue;
+        margin-bottom: 20px;
+    }
+    
+    #features i:hover{
+        color: rgb(63, 63, 63);
+        cursor: pointer;
+    
+    }
+    
+    #features p{
+        font-size:smaller;
+    }
+    
 }
