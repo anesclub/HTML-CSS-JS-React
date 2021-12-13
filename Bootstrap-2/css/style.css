@@ -41,7 +41,7 @@ h1{
 
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover, .btn-light:hover{
     cursor: pointer;
     background-color: cornflowerblue;
 }
@@ -59,4 +59,44 @@ h1{
 
 #features p{
     font-size:smaller;
+}
+
+#footer{
+    /* background: #333; */
+    width: 100%;
+}
+
+#footer .container{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    margin: 20px 0;
+}
+
+.social a{
+    color: aliceblue;
+    margin-right: 25px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.content h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    /* color: aliceblue; */
+
+}
+
+#footer .container .content{
+    padding: 10px ;
+    color: aliceblue;
+}
+
+.second{
+    /* margin-left: 120px; */
 }
